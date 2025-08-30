@@ -5,34 +5,6 @@
 
 ---
 
-## 📂 Code Overview
-
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Use a dark theme for the plot
-plt.style.use("dark_background")
-
-# Generate values of angle (θ) from 0 to 10π
-o = np.linspace(0, 10*np.pi, 2000)
-
-# Define radius function r(θ)
-r = 1 / (1 + 0.2*o)
-
-# Convert polar (r, θ) to Cartesian (x, y)
-x, y = r * np.cos(o), r * np.sin(o)
-
-# Create scatter plot
-plt.scatter(x, y, c=o, cmap="magma", s=3)
-
-# Ensure equal scaling for x and y axes
-plt.axis("equal")
-
-# Show the plot
-plt.show()
-```
-
 🌀 Output
 
 --> The code generates a spiral scatter plot where:
