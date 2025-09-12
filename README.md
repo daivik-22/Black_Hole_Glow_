@@ -5,14 +5,14 @@
 
 ---
 
-🌀 Output
+## 🌀 Output
 
 --> The code generates a spiral scatter plot where:
 - The radius decreases as the angle increases.
 - The color of the points varies with the angle, using the magma colormap.
 - The background is set to a dark theme.
 
-📦 Requirements
+## 📦 Requirements
 
 - Python 3.x
 - NumPy
@@ -20,16 +20,16 @@
 - Install dependencies with:
 - pip install numpy matplotlib
 
-▶️ Usage
+## ▶️ Usage
 
 - Run the script:
 - python spiral_plot.py
 - This will open a window displaying the spiral scatter plot.
 
-🎨 Example Visualization
+## 🎨 Example Visualization
 - The plot resembles a colorful decaying spiral galaxy on a dark background.
 
-✨ Features
+## ✨ Features
 
 - Customizable colormap (cmap) for coloring the spiral.
 - Adjustable point size (s in plt.scatter).
