@@ -1,9 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Star
 stars_x = np.random.rand(30) * 100
 stars_y = np.random.rand(30) * 100
 
+#Star Plot
 plt.scatter(stars_x, stars_y, color="white")
 for i in range(10):
   a, b = np.random.randint(0, 30, 2)
